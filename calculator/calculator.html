@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+
+    </head>
+    <body>
+        <div id="calc-container">
+            <div id="output"></div>
+            <div id="calculator">
+            
+            <button onclick="appendToOutput('1')" class="row1">1</button>
+            <button onclick="appendToOutput('2')" class="row1">2</button>
+            <button onclick="appendToOutput('3')" class="row1">3</button>
+            <button onclick="appendToOutput('4')" class="row1">4</button>
+            <button onclick="appendToOutput('5')" class="row1">5</button>
+            <button onclick="appendToOutput('6')" class="row1">6</button>
+            <button onclick="appendToOutput('7')" class="row2">7</button>
+            <button onclick="appendToOutput('8')" class="row2">8</button>
+            <button onclick="appendToOutput('9')" class="row2">9</button>
+            <button onclick="appendToOutput('0')" class="row2">0</button>
+            <button onclick="appendToOutput('+')" class="row3">+</button>
+            <button onclick="appendToOutput('-')" class="row3">-</button>
+            <button onclick="appendToOutput('*')" class="row3">*</button>
+            <button onclick="appendToOutput('/')" class="row3">/</button>
+            <button onclick="calculate()" class="row4">=</button>
+            <button onclick="clearOutput()" class="row4">C</button>
+        </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
